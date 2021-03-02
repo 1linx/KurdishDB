@@ -1,0 +1,48 @@
+/* Recent Posts Section Style #2 [Start] */
+.listing-item{
+	flex-direction: row;
+	display: flex;
+	background-color: #F9FCFF;
+	margin-bottom:20px;
+}
+.rp_image a {
+  /* this styling is for illustration only */
+  margin: 20px;
+  background-color: pink;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+.meta_wrap {
+	width:100%;
+}
+
+@media screen and (max-width: 600px) {
+.listing-item{
+    flex-direction: column;
+	width: 100%;
+  }
+}
+.rp_image{
+}
+.rp_title{
+	margin-bottom:0.5%;
+}
+.rp_titleinfo{
+}
+.rp_cattags{
+	margin-bottom:1%;
+}
+.rp_content{
+}
+
+
+
+/* avatar css */
+.display-posts-listing .avatar {
+	float: none;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin: 0 5px;
+}
+/* avatar css */
